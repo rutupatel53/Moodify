@@ -1,0 +1,26 @@
+.Navbar {
+  float: left;
+  height: 100vh;
+  width: 200px;
+  background-color: #0f0f0f;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.Navbar .logo {
+  margin-top: 50px;
+}
+.Box {
+  margin-top: 50px;
+  margin-left: 50px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.Box li {
+  margin-bottom: 10px;
+  gap: 50px;
+  cursor: pointer;
+  font-size: large;
+  color: white;
+  font-family: Times, serif;
+}
