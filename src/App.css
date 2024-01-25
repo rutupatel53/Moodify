@@ -2,3 +2,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.ant-btn-danger {
+  color: #ff4d4f;
+}
+.ant-btn-danger:hover {
+  color: #d4380d;
+}
+
+.ant-btn-link {
+  color: #52c41a;
+}
+.ant-btn-link:hover {
+  color: #237804;
+}
+.ant-btn-primary {
+  background: #ffffff;
+  border-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.88);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+}
+.ant-btn-default {
+  color: black;
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+  border-color: #d9d9d9;
+}
+.ant-btn-default:hover {
+  color: white !important;
+  background: rgb(75, 156, 248);
+}
+/* Add a custom class to the cell content */
+.ant-table-cell-goal {
+  white-space: pre-wrap; /* This allows the text to wrap to the next line */
+  word-wrap: break-word; /* This ensures that long words are broken and do not overflow */
+}

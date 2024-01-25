@@ -92,7 +92,7 @@ export default function Calendar() {
   return (
     <div className="pt-4 ml-4 w-full h-96">
       <div className=" px-4 sm:px-7 md:w-fit md:px-6">
-        <div className="md:grid md:grid-cols-7 md:divide-x md:divide-gray-200">
+        <div className="md:grid md:grid-cols-7  md:divide-gray-200">
           <div className="md:pr-14 md:col-span-6 w-96">
             <div className=" flex  items-center">
               <h2 className="flex-auto font-semibold text-gray-900">
