@@ -35,6 +35,7 @@ export const Calendar1 = () => {
   return (
     <>
       <Calendar
+        className="ml-[250px]"
         onPanelChange={onPanelChange}
         dateCellRender={(value) => {
           const date = value.format("YYYY-MM-DD");
@@ -48,9 +49,9 @@ export const Calendar1 = () => {
         }}
       />
 
-      <Button type="primary" onClick={showModal}>
+      {/* <Button type="primary" onClick={showModal}>
         Add Event
-      </Button>
+      </Button> */}
       <Modal
         title="Add Event"
         visible={visible}
