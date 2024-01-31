@@ -13,7 +13,7 @@ export const Navbar = () => {
       <img src={logo} className="logo" />
       <ul className="Box">
         <li
-          className="cursor-pointer hover:bg-gray-300 p-2 rounded"
+          className="cursor-pointer hover:bg-gray-300  p-2 rounded"
           onClick={() => {
             setMenu("Home");
             navigate("/");

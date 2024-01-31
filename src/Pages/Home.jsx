@@ -20,8 +20,8 @@ export const Home = () => {
   };
 
   return (
-    <div className="Home">
-      <div className="float-right mr-96 border-r-4 w-0.5 border-black-100 h-screen p-4">
+    <div className="Home  pl-52">
+      <div className="float-right mr-96 border-r-4 w-0.5 border-black-100 p-4 h-[880px]">
         <div className="w-96 h-96">
           <Calendar />
         </div>
@@ -30,9 +30,9 @@ export const Home = () => {
       <img
         src={homeimg}
         alt="Homepage"
-        className="w-1/2 h-96 pt-4 pb-24 pl-24 rounded-full"
+        className="w-[750px] h-96 pt-4 pb-20 ml-24 rounded-full"
       />
-      <div className="-mb-3">
+      <div className="-mb-3 ml-14">
         <div>
           <h1 className="text-blue-500 flex items-center  justify-center text-lg">
             How was Your day?
@@ -80,6 +80,12 @@ export const Home = () => {
             className="ml-60 w-96 h-10 pl-1 outline-gray-500 outline outline-2 outline-offset-2 rounded-md"
           />
         </div>
+        <button
+          type="button"
+          className="px-4 py-2 ml-[350px] mt-5 bg-blue-500 text-white rounded-md ml-24 hover:bg-blue-600"
+        >
+          Store Memories!
+        </button>
       </div>
     </div>
   );

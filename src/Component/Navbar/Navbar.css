@@ -1,11 +1,15 @@
 .Navbar {
-  float: left;
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 100vh;
   width: 250px;
   background-color: #0f0f0f;
   padding: 20px;
   box-sizing: border-box;
+  overflow-y: auto; /* Add this line to enable scrolling if the content is taller than the viewport */
 }
+
 .Navbar .logo {
   margin-top: 50px;
 }
