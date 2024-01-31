@@ -80,10 +80,10 @@ export const Goals = () => {
 
   return (
     <div>
-      <div className="text-center text-2xl pt-6 text-blue-600 font-sans">
+      <div className="text-center text-2xl pt-6 ml-80  text-blue-600 font-sans">
         Add Your Goals
       </div>
-      <div className="ml-[810px] mt-12">
+      <div className="ml-[850px] mt-12">
         <DatePicker onChange={handleDatePickerChange} />
       </div>
       <div className="mt-6 justify-center items-center text-center mr-48">
@@ -91,19 +91,19 @@ export const Goals = () => {
           value={goalInput}
           onChange={(e) => setGoalInput(e.target.value)}
           placeholder="Write About Your Goal"
-          className="ml-60 w-96 h-10 pl-1 outline-gray-500 outline outline-2 outline-offset-2 rounded-md"
+          className="ml-[520px] w-96 h-10 pl-1 outline-gray-500 outline outline-2 outline-offset-2 rounded-md"
         />
 
         <Button
           onClick={setGoal}
-          className="ml-[820px] mt-5 w-36 h-10 flex justify-center items-center bg-blue-500 rounded-2xl text-white"
+          className="ml-[860px] mt-5 w-36 h-10 flex justify-center items-center bg-blue-500 rounded-2xl text-white"
         >
           Set Goal!
         </Button>
-        <div className="col-end w-[800px] flex ml-[500px] h-48 mt-10">
+        <div className="col-end w-[1000px] flex ml-[550px] h-48 mt-10">
           {" "}
           <Table
-            className="w-[800px] h-96 outline-10 outline-black"
+            className="w-[800px] h-96 outline-900 outline-black"
             columns={columns}
             dataSource={goalData}
           />
